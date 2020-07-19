@@ -15,8 +15,8 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         mainpitch1={data.mainpitch1 || {}}
         mainpitch2={data.mainpitch2 || {}}
         intro={data.intro || { blurbs: [] }}
-        main={data.main}
-        contact={data.contact}
+        main={data.main || {}}
+        contact={data.contact || {}}
       />
     )
   } else {
