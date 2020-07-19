@@ -6,7 +6,7 @@ import Features from "../components/Features";
 import ContactForm from "../components/ContactForm";
 import SubscribeForm from "../components/SubscribeForm";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAward, faMedal } from "@fortawesome/free-solid-svg-icons";
+import { faAward, faMedal, faPoll } from "@fortawesome/free-solid-svg-icons";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 export const IndexPageTemplate = ({
@@ -54,25 +54,36 @@ export const IndexPageTemplate = ({
                  {heading}
                </h1>
                <p
-                 className="is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+                 className="is-size-5-mobile is-size-5-tablet"
                  style={{
                    textAlign: "center",
                    color: "white",
                    lineHeight: "1",
-                   padding: "0.25em",
+                   padding: "1rem 0.25em",
+                   fontSize: "1.10rem !important",
                  }}
                >
                  {subheading}
                </p>
 
-               <SubscribeForm />  
-
+               <SubscribeForm />
              </div>
-             <div className="hBtm" >
-              <svg className="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
-                <polygon className="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon>
-              </svg>
-            </div>
+             <div className="hBtm">
+               <svg
+                 className="absolute bottom-0 overflow-hidden"
+                 xmlns="http://www.w3.org/2000/svg"
+                 preserveAspectRatio="none"
+                 version="1.1"
+                 viewBox="0 0 2560 100"
+                 x="0"
+                 y="0"
+               >
+                 <polygon
+                   className="text-gray-300 fill-current"
+                   points="2560 0 2560 100 0 100"
+                 ></polygon>
+               </svg>
+             </div>
            </div>
            <section
              className="section section--gradient"
@@ -124,7 +135,6 @@ export const IndexPageTemplate = ({
                        </section>
 
                        <Features gridItems={intro.blurbs} />
-
                      </div>
                    </div>
                  </div>
@@ -133,16 +143,29 @@ export const IndexPageTemplate = ({
            </section>
 
            <div className="content s-last-box">
-           <div className="sTop" >
-              <svg className="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
-                <polygon className="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon>
-              </svg>
-            </div>
+             <div className="sTop">
+               <svg
+                 className="absolute bottom-0 overflow-hidden"
+                 xmlns="http://www.w3.org/2000/svg"
+                 preserveAspectRatio="none"
+                 version="1.1"
+                 viewBox="0 0 2560 100"
+                 x="0"
+                 y="0"
+               >
+                 <polygon
+                   className="text-gray-300 fill-current"
+                   points="2560 0 2560 100 0 100"
+                 ></polygon>
+               </svg>
+             </div>
              <div className="container">
                <div className="columns">
                  <div className="column is-10 is-offset-1">
-
-                   <section className="section" style={{padding:'3rem 1.5rem 8rem 1.5rem'}}>
+                   <section
+                     className="section"
+                     style={{ padding: "3rem 1.5rem 8rem 1.5rem" }}
+                   >
                      <div className="columns">
                        <div className="column is-6">
                          <PreviewCompatibleImage imageInfo={main} />
@@ -153,22 +176,31 @@ export const IndexPageTemplate = ({
                        </div>
                      </div>
                    </section>
-
                  </div>
                </div>
              </div>
            </div>
 
            <div className="content bg-gray-900">
-           <div className="cTop" >
-              <svg className="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
-                <polygon className="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon>
-              </svg>
-            </div>
+             <div className="cTop">
+               <svg
+                 className="absolute bottom-0 overflow-hidden"
+                 xmlns="http://www.w3.org/2000/svg"
+                 preserveAspectRatio="none"
+                 version="1.1"
+                 viewBox="0 0 2560 100"
+                 x="0"
+                 y="0"
+               >
+                 <polygon
+                   className="text-gray-300 fill-current"
+                   points="2560 0 2560 100 0 100"
+                 ></polygon>
+               </svg>
+             </div>
              <div className="container">
                <div className="columns">
                  <div className="column is-10 is-offset-1">
-
                    <section className="section c-header">
                      <div className="columns">
                        <div className="column is-12 has-text-centered">
@@ -178,13 +210,22 @@ export const IndexPageTemplate = ({
                      </div>
                    </section>
 
+                   <section className="tile cboxc" >
+                     <div className="has-text-centered">
+                       <div className="f-icon icon-faPoll">
+                         <FontAwesomeIcon icon={faPoll} size="lg" />
+                       </div>
+                       <h4 className="title">{contact.heading}</h4>
+                       <p>{contact.text}</p>
+                     </div>
+                   </section>
+
                    <ContactForm />
 
                  </div>
                </div>
              </div>
            </div>
-
          </div>
        );
 

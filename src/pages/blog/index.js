@@ -11,7 +11,7 @@ export default class BlogIndexPage extends React.Component {
           className="full-width-image-container margin-top-0"
           style={{
             flexDirection: 'column',
-            height:'25vh',
+            height:'35vh',
             backgroundColor: '#1a202c'
           }}
         >

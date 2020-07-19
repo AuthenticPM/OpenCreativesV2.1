@@ -29,10 +29,10 @@ export const BlogPostTemplate = ({
         </div>
     <section className="section">
       {helmet || ''}
-      <div className="container content" style={{ padding: '4rem 0', textAlign: 'left' }} >
+      <div className="container content" style={{ padding: '1rem 0', textAlign: 'left' }} >
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+            <h1 className="title is-size-2 has-text-weight-bold is-bold-light" style={{ marginBottom: '4rem' }} >
               {title}
             </h1>
             <p>{description}</p>

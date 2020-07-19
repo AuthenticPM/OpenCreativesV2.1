@@ -34,49 +34,49 @@ export default class SubscribeForm extends React.Component {
 
   render() {
     return (
-      <section className="section" >
-              
-              <form
-                name="subscribe"
-                method="post"
-                action="/contact/thanks/"
-                data-netlify="true"
-                data-netlify-honeypot="bot-field"
-                onSubmit={this.handleSubmit}
-                className="columns"
-              >
-                {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-                <input type="hidden" name="form-name" value="subscribe" />
-                <div hidden>
-                  <label>
-                    Don’t fill this out:{" "}
-                    <input name="bot-field" onChange={this.handleChange} />
-                  </label>
-                </div>
-                
-                <div className="column">
-                  <div className="columns">
-                    <div className="control column is-8">
-                        <input
-                        className="input"
-                        type={"email"}
-                        name={"email"}
-                        onChange={this.handleChange}
-                        id={"email"}
-                        required={true}
-                        placeholder="Your email"
-                        />
-                    </div>
-                    <div className="field has-text-left column is-4">
-                        <button className="button is-link btnSubs" type="submit" >
-                            Subscribe
-                        </button>
-                    </div>
-                  </div>
-                </div>
+      <section className="section" style={{ paddingTop: "0.5rem" }}>
+        <form
+          name="subscribe"
+          method="post"
+          action="/contact/thanks/"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+          onSubmit={this.handleSubmit}
+          className="columns"
+        >
+          {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
+          <input type="hidden" name="form-name" value="subscribe" />
+          <div hidden>
+            <label>
+              Don’t fill this out:{" "}
+              <input name="bot-field" onChange={this.handleChange} />
+            </label>
+          </div>
 
-              </form>
-        
+          <div className="column">
+            <div className="columns">
+              <div
+                className="control column is-8"
+                style={{ paddingRight: "0" }}
+              >
+                <input
+                  className="input"
+                  type={"email"}
+                  name={"email"}
+                  onChange={this.handleChange}
+                  id={"email"}
+                  required={true}
+                  placeholder="Your email"
+                />
+              </div>
+              <div className="field has-text-left column is-4">
+                <button className="button is-link btnSubs" type="submit">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
       </section>
     );
   }
