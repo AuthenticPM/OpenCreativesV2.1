@@ -7,7 +7,8 @@ export default () => (
       <div className="container">
         <div className="content" style={{ margin: '4rem 0', textAlign: 'center' }}>
           <h1>Thank you!</h1>
-          <p>This is a custom thank you page for form submissions</p>
+          <p>We appreciate you contacting us.</p>
+          <p>Have a great day!</p>
         </div>
       </div>
     </section>

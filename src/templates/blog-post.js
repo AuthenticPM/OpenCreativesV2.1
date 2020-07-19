@@ -17,9 +17,19 @@ export const BlogPostTemplate = ({
   const PostContent = contentComponent || Content
 
   return (
+    <div>
+        <div
+          className="full-width-image-container margin-top-0"
+          style={{
+            flexDirection: 'column',
+            height:'25vh',
+            backgroundColor: '#1a202c'
+          }}
+        >
+        </div>
     <section className="section">
       {helmet || ''}
-      <div className="container content" style={{ margin: '4rem 0', textAlign: 'center' }} >
+      <div className="container content" style={{ padding: '4rem 0', textAlign: 'left' }} >
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
@@ -43,6 +53,7 @@ export const BlogPostTemplate = ({
         </div>
       </div>
     </section>
+    </div>
   )
 }
 
