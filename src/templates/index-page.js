@@ -11,7 +11,6 @@ import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 export const IndexPageTemplate = ({
          image,
-         title,
          heading,
          subheading,
          mainpitch1,
