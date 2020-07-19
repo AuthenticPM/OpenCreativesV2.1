@@ -22,7 +22,7 @@ export const BlogPostTemplate = ({
           className="full-width-image-container margin-top-0"
           style={{
             flexDirection: 'column',
-            height:'25vh',
+            height:'96px',
             backgroundColor: '#1a202c'
           }}
         >
