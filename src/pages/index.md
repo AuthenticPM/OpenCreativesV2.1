@@ -5,40 +5,40 @@ image: /img/home-jumbotron.png
 heading: Open Creatives
 subheading: Open Creatives sub heading
 mainpitch1:
-  title: Why Kaldi
-  description: >
-    The best places to live and work remotely.
+  title: Top Box 1 Heading
+  description: Top Box 1 text We source all of our beans directly from small scale
+    sustainable farmers and make sure part of the profits are reinvested in
+    their communities.
 mainpitch2:
-  title: Why Kaldi
+  title: Top Box 2 Heading
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Top Box 2 text We source all of our beans directly from small scale
+    sustainable farmers and make sure part of the profits are reinvested in
+    their communities.
 intro:
   blurbs:
     - image: /img/coffee.png
       title: Nomad List
       link: https://www.authenticpm.com.au/
-      text: >
+      text: |
         The best places to live and work remotely. 
     - image: /img/coffee-gear.png
       title: Ghost
       link: https://placecard.me/
-      text: >
+      text: |
         The #1 open source headless Node.js CMS. 
     - image: /img/tutorials.png
       title: Place Card Me
       link: https://www.authenticpm.com.au/
-      text: >
+      text: |
         The best way to make printable place cards. 
     - image: /img/meeting-space.png
       title: Leave Me Alone
       link: https://leavemealone.app/
-      text: >
+      text: |
         The best way to make printable place cards
   heading: Our Heroes
-  description: >
+  description: |
     These startups share their numbers in public...
 main:
   heading: Great coffee with no compromises
@@ -50,9 +50,10 @@ main:
   image: /img/products-grid3.jpg
 contact:
   title: Contact Us
-  description: >
+  description: |
     We love to chat. We also love feedback.
   heading: Submit your open
   text: >
-    Do you already have an open startup? Share it with us! There's nothing more wonderful than growing this community!
+    Do you already have an open startup? Share it with us! There's nothing more
+    wonderful than growing this community!
 ---
