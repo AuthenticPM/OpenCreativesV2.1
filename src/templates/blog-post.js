@@ -23,7 +23,8 @@ export const BlogPostTemplate = ({
           style={{
             flexDirection: 'column',
             height:'96px',
-            backgroundColor: '#1a202c'
+            backgroundColor: '#1a202c',
+            
           }}
         >
         </div>

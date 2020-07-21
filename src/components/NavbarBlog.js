@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import logo from '../img/logo.png'
 
-const Navbar = class extends React.Component {
+const NavbarBlog = class extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -34,14 +34,20 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="navbar is-transparent blogNavbar"
         role="navigation"
         aria-label="main-navigation"
+        style={{ maxWidth: "1140px", margin: '0 auto', width:'100%', position:'relative' }}
       >
         <div className="container">
           <div className="navbar-brand">
-            <Link to="https://www.authenticpm.com.au/" className="navbar-item" title="Open Creatives" style={{ width: '96px' }}>
-              <img src={logo} alt="Open Creatives" />
+            <Link
+              to="/"
+              className="navbar-item"
+              title="Open Creatives"
+              style={{ minHeight: "96px", color: "#381696", fontWeight: "bold", fontSize: "1.3rem" }}
+            >
+              Open Creatives
             </Link>
             {/* Hamburger menu */}
             <div
@@ -58,9 +64,7 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
-              
-            </div>
+            <div className="navbar-start has-text-centered"></div>
             <div className="navbar-end has-text-centered">
               <Link className="navbar-item n-item-blog" to="/blog">
                 Blog
@@ -69,8 +73,8 @@ const Navbar = class extends React.Component {
           </div>
         </div>
       </nav>
-    )
+    );
   }
 }
 
-export default Navbar
+export default NavbarBlog

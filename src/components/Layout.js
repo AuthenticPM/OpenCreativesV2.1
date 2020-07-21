@@ -2,14 +2,16 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import NavbarBlog from '../components/NavbarBlog'
 import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
-const TemplateWrapper = ({ children }) => {
+const TemplateWrapper = ({ children, pg }) => {
   const { title, description } = useSiteMetadata()
   return (
     <div>
+
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
@@ -32,7 +34,6 @@ const TemplateWrapper = ({ children }) => {
           href={`${withPrefix('/')}img/favicon-16x16.png`}
           sizes="16x16"
         />
-
         <link
           rel="mask-icon"
           href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
@@ -48,9 +49,24 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
       </Helmet>
-      <Navbar />
+      <>
+
+      { pg == null && (
+        <Navbar />
+        )
+      }
+
+      { pg == "blog" && (
+        <NavbarBlog />
+        )
+      }
+
+      </>
+
       <div>{children}</div>
+
       <Footer />
+
     </div>
   )
 }

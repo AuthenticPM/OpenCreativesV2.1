@@ -17,7 +17,7 @@ export const IndexPageTemplate = ({
          mainpitch2,
          intro,
          main,
-         contact,
+         contact
        }) => (
          <div>
            <div
@@ -326,6 +326,10 @@ export const pageQuery = graphql`
           description
           heading
           text
+        }
+        blog {
+          title
+          description
         }
       }
     }
