@@ -27,7 +27,7 @@ export const BlogPostTemplate = ({
         `,
         }}
       />
-      <div
+      {/* <div
         className="full-width-image-container b-fwi margin-top-0"
         style={{
           paddingTop: "0",
@@ -35,7 +35,7 @@ export const BlogPostTemplate = ({
           paddingRight: "12px",
           paddingLeft: "12px",
         }}
-      ></div>
+      ></div> */}
 
       <div className="container">
         {featuredimage ? (
