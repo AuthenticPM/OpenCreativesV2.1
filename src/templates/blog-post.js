@@ -13,65 +13,114 @@ export const BlogPostTemplate = ({
   tags,
   title,
   helmet,
+  featuredimage,
+  date,
 }) => {
   const PostContent = contentComponent || Content
 
   return (
     <div>
-        <div
-          className="full-width-image-container margin-top-0"
-          style={{
-            flexDirection: 'column',
-            height:'96px',
-            backgroundColor: '#1a202c',
-            
-          }}
-        >
-        </div>
-    <section className="section">
-      {helmet || ''}
-      <div className="container content" style={{ padding: '1rem 0', textAlign: 'left' }} >
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light" style={{ marginBottom: '4rem' }} >
-              {title}
-            </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map((tag) => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
+      <style
+        dangerouslySetInnerHTML={{
+          __html: `
+          body { background-color: white; border-top: 6px solid #381696 }
+        `,
+        }}
+      />
+      <div
+        className="full-width-image-container b-fwi margin-top-0"
+        style={{
+          paddingTop: "0",
+          flexDirection: "column",
+          paddingRight: "12px",
+          paddingLeft: "12px",
+        }}
+      ></div>
+
+      <div className="container">
+        {featuredimage ? (
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <div
+                className="blogPostHero full-width-image"
+                style={{
+                  backgroundImage: `url(${
+                    !!featuredimage.childImageSharp
+                      ? featuredimage.childImageSharp.fluid.src
+                      : featuredimage
+                  })`,
+                  backgroundPosition: `center center`,
+                  backgroundSize: `cover`,
+                  borderRadius: "10px",
+                  alignItems:'center',
+                  display:'grid',
+                  width:'100%',
+                  textAlign:'center',
+                  height:'35vh'
+                }}
+              >
+                <div>
+                  <h1
+                    className="title is-size-2 has-text-weight-bold is-bold-light"
+                    style={{ marginBottom: "0rem", color:'#fff' }}
+                  >
+                    {title}
+                  </h1>
+                  <p style={{ color:'#fff' }}>{date}</p>
+                </div>
               </div>
-            ) : null}
+            </div>
+          </div>
+        ) : null}
+      </div>
+
+      <section className="section">
+        {helmet || ""}
+        <div
+          className="container content"
+          style={{ padding: "1rem 0", textAlign: "left" }}
+        >
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <p>{description}</p>
+              <PostContent content={content} />
+              {tags && tags.length ? (
+                <div style={{ marginTop: `4rem` }}>
+                  <h4>Tags</h4>
+                  <ul className="taglist">
+                    {tags.map((tag) => (
+                      <li key={tag + `tag`}>
+                        <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
     </div>
-  )
+  );
 }
 
 BlogPostTemplate.propTypes = {
+  featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
+  date: PropTypes.string,
 }
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <Layout>
+    <Layout pg="blog">
       <BlogPostTemplate
+        featuredimage={post.frontmatter.featuredimage}
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
@@ -86,6 +135,7 @@ const BlogPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        date={post.frontmatter.date}
       />
     </Layout>
   )
@@ -109,6 +159,14 @@ export const pageQuery = graphql`
         title
         description
         tags
+        date(formatString: "MMMM DD, YYYY")
+        featuredimage {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

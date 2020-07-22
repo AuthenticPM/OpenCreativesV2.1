@@ -20,6 +20,10 @@ class BlogRoll extends React.Component {
               >
                 <header>
                   {post.frontmatter.featuredimage ? (
+                                        <Link
+                                        className="title is-size-4"
+                                        to={post.fields.slug}
+                                      >
                     <div className="featured-thumbnail">
                       <PreviewCompatibleImage
                         imageInfo={{
@@ -28,6 +32,7 @@ class BlogRoll extends React.Component {
                         }}
                       />
                     </div>
+                    </Link>
                   ) : null}
                   <p className="post-meta">
                     <Link

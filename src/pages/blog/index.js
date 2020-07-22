@@ -8,8 +8,8 @@ const BlogIndexPage = ({ data }) => {
     return (
       <Layout pg="blog">
         <style dangerouslySetInnerHTML={{__html: `
-      body { background-color: white; border-top: 6px solid #381696 }
-    `}} />
+          body { background-color: white; border-top: 6px solid #381696 }
+        `}} />
         <div className="full-width-image-container margin-top-0"
           style={{
             paddingTop:'0',
@@ -26,13 +26,12 @@ const BlogIndexPage = ({ data }) => {
           <p className="is-size-5-mobile is-size-5-tablet is-size-4-widescreen b-p" >
             {frontmatter.blog.description}
           </p>
-
         </div>
 
         <section className="section" style={{ paddingTop : '10px'}}>
           <div className="container" style={{ maxWidth : '1140px'}}>
             <div className="content">
-              <h3 className="b-h2">Blog Posts ↓</h3>
+              <h3 className="b-h2">{frontmatter.blog.heading}</h3>
               <BlogRoll />
             </div>
           </div>
