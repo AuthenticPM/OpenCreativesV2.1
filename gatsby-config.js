@@ -73,5 +73,13 @@ module.exports = {
       },
     }, // must be after other CSS plugins
     'gatsby-plugin-netlify', // make sure to keep it last in the array
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it. replace with yours
+        trackingId: "UA-172018820-1",
+        head: true,
+      }
+    }
   ],
 }
