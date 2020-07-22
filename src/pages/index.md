@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Open Creatives
-image: /img/home-jumbotron.png
+image: /img/1266032437-large.jpg
 heading: Open Creatives
 subheading: Open Creatives sub heading
 mainpitch1:
@@ -58,7 +58,9 @@ contact:
     wonderful than growing this community!
 blog:
   title: Blog Heading
-  description: |
-    Blog description Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+  description: >
+    Blog description Lorem Ipsum has been the industry's standard dummy text
+    ever since the 1500s, when an unknown printer took a galley of type and
+    scrambled it to make a type specimen book.
   heading: Blog Posts heading
 ---
