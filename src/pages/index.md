@@ -3,7 +3,7 @@ templateKey: index-page
 title: Open Creatives
 image: /img/1266032437-large.jpg
 heading: Open Creatives
-subheading: for insightful and candid discussion
+subheading: insightful and candid discussions
 mainpitch1:
   description: >-
     Providing short and impactful interviews with those who take the plunge and
