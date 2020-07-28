@@ -1,13 +1,10 @@
 ---
 templateKey: blog-post
-title: A beginners’ guide to brewing with Chemex
+title: How did Coca Cola become one of the biggest brands in the world?
 date: 2017-01-04T15:04:10.000Z
-description: >-
-  Brewing with a Chemex probably seems like a complicated, time-consuming
-  ordeal, but once you get used to the process, it becomes a soothing ritual
-  that's worth the effort every time.
+description: '  '
 featuredpost: false
-featuredimage: /img/Choo.jpg
+featuredimage: /img/Coke.jpg
 tags:
   - brewing
   - chemex
