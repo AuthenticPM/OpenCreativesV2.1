@@ -41,7 +41,7 @@ main:
     Open Creatives exists to provide a transparent platform to share the good
     the bad and the ugly in hopes of helping to instill others with some extra
     confidence to achieve higher highs.  Thank you for sharing!
-  image: /img/light.png
+  image: /img/light copy.png
   heading: A quick word of acknowledgement to all of our content creators
 contact:
   description: |
