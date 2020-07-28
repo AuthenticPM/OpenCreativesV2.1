@@ -22,8 +22,7 @@ intro:
       title: Candy Crush
     - image: /img/Mattel.png
       link: 'http://www.victorialicensing.it/en/home'
-      text: |
-        Mattel marketing and consulting
+      text: Mattel's marketing and consulting
       title: Victoria Licensing & Marketing
     - image: /img/Cocacaola.png
       link: 'https://www.coca-cola.com.au/en/home'
