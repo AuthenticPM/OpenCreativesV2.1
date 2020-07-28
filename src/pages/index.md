@@ -37,8 +37,8 @@ intro:
         The best way to make printable place cards
       title: Leave Me Alone
   description: >-
-    Click the links to be taken to their own projects otherwise <Link
-    to="/blog">read their stories here</Link>
+    Click the links to be taken to these creative's own projects otherwise [read
+    their stories here](www.opencreatives.com.au/blog)
   heading: Our Recent Creatives
 main:
   description: >
