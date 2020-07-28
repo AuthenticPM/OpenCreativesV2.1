@@ -11,8 +11,8 @@ mainpitch1:
   title: What are we about?
 mainpitch2:
   description: >-
-    Because hindsight is 20/20 and we can learn from the path others have carved
-    out in their own journey of life
+    Because we can learn a lot from the path others have carved out in their own
+    journey of life
   title: And why does that matter?
 intro:
   blurbs:
@@ -42,12 +42,11 @@ intro:
   heading: Our Recent Creatives
 main:
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  image: /img/products-grid3.jpg
-  heading: Great coffee with no compromises
+    Open Creatives exists to provide a transparent platform to share the good
+    the bad and the ugly in hopes of helping to instill others with some extra
+    confidence to achieve higher highs.  Thank you for sharing!
+  image: /img/light.png
+  heading: A quick word of acknowledgement to all of our content creators
 contact:
   description: |
     We love to chat. We also love feedback.
