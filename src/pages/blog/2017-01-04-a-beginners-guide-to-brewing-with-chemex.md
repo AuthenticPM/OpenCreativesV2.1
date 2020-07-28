@@ -4,7 +4,7 @@ title: How did Coca Cola become one of the biggest brands in the world?
 date: 2017-01-04T15:04:10.000Z
 description: '  '
 featuredpost: false
-featuredimage: /img/Coke.jpg
+featuredimage: /img/Coke copy.jpg
 tags:
   - brewing
   - chemex
