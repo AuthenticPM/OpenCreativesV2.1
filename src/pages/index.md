@@ -11,7 +11,7 @@ mainpitch1:
   title: What are we about?
 mainpitch2:
   description: >-
-    Because we can learn a lot from the path others have carved out in their own
+    Because we learn a lot from the path others have carved out in their own
     journey of life
   title: And why does that matter?
 intro:
