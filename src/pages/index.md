@@ -16,6 +16,10 @@ mainpitch2:
   title: And why does that matter?
 intro:
   blurbs:
+    - image: /img/temp blog.png
+      link: 'https://www.opencreatives.com.au/blog/'
+      text: TEMP LINK CLICKY CLICK
+      title: Our Creatives!
     - image: /img/Candydrush.png
       link: 'https://king.com/game/candycrush'
       text: The best way to pass some spare time
@@ -32,10 +36,6 @@ intro:
       link: 'https://www.microsoft.com/en-au/windows'
       text: The most used operating system ever
       title: Microsoft Windows
-    - image: /img/temp blog.png
-      link: 'https://www.opencreatives.com.au/blog/'
-      text: Our Creatives!
-      title: Our Creatives!
   description: >-
     Click the links to be taken to these creative's own projects otherwise [read
     their stories here](www.opencreatives.com.au/blog)
