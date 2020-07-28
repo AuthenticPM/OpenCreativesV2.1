@@ -1,17 +1,14 @@
 ---
 templateKey: blog-post
-title: Making sense of the SCAA’s new Flavor Wheel
+title: What concepts and ideas went into Window's largest interface overhaul ever!
 date: 2016-12-17T15:04:10.000Z
-description: >-
-  The Coffee Taster’s Flavor Wheel, the official resource used by coffee
-  tasters, has been revised for the first time this year.
+description: '  '
 featuredpost: false
-featuredimage: /img/Sample tile 2.jpg
+featuredimage: /img/Bill gates.jpg
 tags:
-  - flavor
-  - tasting
+  - Bill Gates
 ---
-![flavor wheel](/img/flavor_wheel.jpg)
+![flavor wheel](/img/microsoft_windows_10_logo_bandage_data_map-100732004-large.jpg)
 
 The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
 
