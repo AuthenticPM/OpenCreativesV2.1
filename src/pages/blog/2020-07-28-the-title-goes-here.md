@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
-title: The title goes here
-date: 2020-07-28T07:33:58.130Z
-description: >-
+title: >-
   Tommy provides a brief look into the behind the scenes details diehard fans
   are all wanting to know!
+date: 2020-07-28T07:33:58.130Z
+description: '  '
 featuredpost: true
 featuredimage: /img/The Room.jpg
 tags:
