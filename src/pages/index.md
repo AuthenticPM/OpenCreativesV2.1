@@ -3,7 +3,7 @@ templateKey: index-page
 title: Open Creatives
 image: /img/1266032437-large.jpg
 heading: Open Creatives
-subheading: insightful and candid discussions
+subheading: insightful and candid interviews
 mainpitch1:
   description: >-
     Providing short and impactful interviews with those who take the plunge and
@@ -16,26 +16,23 @@ mainpitch2:
   title: And why does that matter?
 intro:
   blurbs:
-    - image: /img/coffee.png
-      link: 'https://www.authenticpm.com.au/'
+    - image: /img/Candydrush.png
+      link: 'https://king.com/game/candycrush'
+      text: The best way to pass some spare time
+      title: Candy Crush
+    - image: /img/Mattel.png
+      link: 'http://www.victorialicensing.it/en/home'
       text: |
-        The best places to live and work remotely. 
-      title: Nomad List
-    - image: /img/coffee-gear.png
-      link: 'https://placecard.me/'
-      text: |
-        The #1 open source headless Node.js CMS. 
-      title: Ghost
-    - image: /img/tutorials.png
-      link: 'https://www.authenticpm.com.au/'
-      text: |
-        The best way to make printable place cards. 
-      title: Place Card Me
-    - image: /img/meeting-space.png
-      link: 'https://leavemealone.app/'
-      text: |
-        The best way to make printable place cards
-      title: Leave Me Alone
+        Mattel marketing and consulting
+      title: Victoria Licensing & Marketing
+    - image: /img/Cocacaola.png
+      link: 'https://www.coca-cola.com.au/en/home'
+      text: The worlds number one soft drink
+      title: Coca Cola
+    - image: /img/windows.png
+      link: 'https://www.microsoft.com/en-au/windows'
+      text: The most used operating system ever
+      title: Microsoft Windows
   description: >-
     Click the links to be taken to these creative's own projects otherwise [read
     their stories here](www.opencreatives.com.au/blog)
