@@ -4,7 +4,7 @@ title: Denim denim denim!
 date: 2017-01-04T15:04:10.000Z
 description: And more!
 featuredpost: true
-featuredimage: /img/Denim.jpg
+featuredimage: /img/Denim copy.jpg
 tags:
   - jamaica
   - green beans
