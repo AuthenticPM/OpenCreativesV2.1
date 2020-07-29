@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: What concepts and ideas went into Window's largest interface overhaul ever!
 date: 2016-12-17T15:04:10.000Z
-description: '  '
+description: '  This is the description field'
 featuredpost: false
 featuredimage: /img/Bill gates.jpg
 tags:
