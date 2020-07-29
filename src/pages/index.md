@@ -11,8 +11,8 @@ mainpitch1:
   title: What are we about?
 mainpitch2:
   description: >-
-    Because we learn a lot from the path others have carved out in their own
-    journey of life
+    Because we can learn a lot by looking at the path others have carved out
+    from their own journey of life
   title: And why does that matter?
 intro:
   blurbs:
@@ -43,8 +43,9 @@ intro:
 main:
   description: >
     Open Creatives exists to provide a transparent platform to share the good
-    the bad and the ugly in hopes of helping to instill others with some extra
-    confidence to achieve higher highs.  Thank you for sharing!
+    the bad and the ugly sides of growth and creativity in hopes of helping to
+    instill others with some extra confidence to achieve higher highs.  Thank
+    you for sharing!
   image: /img/light copy.png
   heading: A quick word of acknowledgement to all of our content creators
 contact:
