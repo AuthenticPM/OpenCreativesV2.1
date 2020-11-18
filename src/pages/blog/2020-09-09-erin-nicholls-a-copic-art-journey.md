@@ -4,7 +4,7 @@ title: "Erin Nicholls: a Copic art journey"
 date: 2020-09-09T00:37:43.334Z
 description: _____________________________________________________________________________________________
 featuredpost: true
-featuredimage: /img/Candy.jpg
+featuredimage: /img/whatwedo.png
 tags:
   - Erin Nicholls
   - Art
