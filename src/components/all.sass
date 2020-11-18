@@ -1,0 +1,382 @@
+@import "../../node_modules/bulma/sass/utilities/initial-variables";
+
+// Config vars
+// Kaldi logo brand color: #FD461E
+$kaldi-red: #fff
+$kaldi-red-invert: #FD461E
+
+$primary: $kaldi-red
+$primary-invert: $kaldi-red-invert
+$body-color: #333
+$black: #2b2523
+
+.navbar .navbar-menu
+  box-shadow:none !important
+
+.content .taglist
+  list-style: none
+  margin-bottom: 0
+  margin-left: 0
+  margin-right: 1.5rem
+  margin-top: 1.5rem
+  display: flex
+  flex-wrap: wrap
+  justify-content: left
+  align-items: center
+  li
+    padding: 0 2rem 1rem 0
+    margin-bottom: 1.5rem
+    margin-top: 0
+
+// Helper Classes
+.full-width-image-container
+  width: 100vw
+  height: 75vh
+  position: relative
+  left: 50%
+  right: 50%
+  margin: 2em -50vw
+  background-size: cover
+  background-position: bottom
+  display: flex
+  justify-content: center
+  align-items: center
+
+
+
+.full-width-image
+    width: 100vw
+    height: 75vh
+    background-size: cover
+    background-position: bottom
+    display: flex
+    justify-content: center
+    align-items: center
+    padding: 4rem 0rem 8rem 0rem
+    position: relative
+
+.hBtm svg polygon
+  color: #e2e8f0
+
+.btn
+    display: inline-block
+    padding: 12px 16px 10px
+    font-size: 18px
+    font-size: 1rem
+    line-height: 1.25
+    background-color: #fff
+    border-radius: .25rem
+    text-decoration: none
+    font-weight: 700
+    color: #CC3700
+    text-align: center
+    -webkit-box-shadow: inset 0 0 0 2px #CC3700
+    box-shadow: inset 0 0 0 2px #f40
+    -webkit-transition: all .15s ease
+    transition: all .15s ease
+
+.margin-top-0
+  margin-top: 0 !important
+
+.navbar-item .icon
+  color: $primary
+// Override for use of svg's from https://simpleicons.org/
+.icon svg
+  width: 1.5rem
+  height: 1.5rem
+  fill: currentColor
+.navbar-brand .navbar-item.logo
+  padding: 0 1rem
+footer.footer
+  padding: 3rem 0rem 3rem
+  background-color: transparent
+
+//Menu overrides
+$menu-item-color: $white-ter
+$menu-item-hover-color: $black !important
+$menu-item-hover-background-color: $black
+$menu-item-active-color: $kaldi-red-invert
+$menu-item-active-background-color:	$kaldi-red-invert
+$menu-list-border-left: 1px solid $kaldi-red-invert
+$menu-label-color: $white-ter
+
+
+.menu-label
+  font-size: 1em !important
+  text-align: left
+.menu-list
+  list-style: none !important
+  text-align: left
+.social
+  padding: 2em
+.social a
+    padding: .5em .5em .3em .5em
+    border-radius: 1em
+    background-color: $white-ter
+    margin: .5em
+    width: 1em
+    height: 1em
+    vertical-align: middle
+    display: inline
+
+// blog roll
+.blog-list-item.is-featured
+  background-color: #d6400033
+.blog-list-item header
+  display: flex
+  margin-bottom: 1em
+  flex-direction: column
+.blog-list-item .featured-thumbnail
+  width: 100%
+  margin: 0 0 0 0
+.blog-list-item.notification 
+  padding: 0rem 0rem 1.25rem 0rem
+  background-color: #fff
+
+@import "../../node_modules/bulma/bulma.sass"
+
+
+// responsiveness
++tablet-only
+  .blog-list-item .featured-thumbnail
+    flex-basis: 50%;
+
++mobile
+  .blog-list-item header
+    display: block
+  .blog-list-item .featured-thumbnail
+    text-align: center;
+    max-width: 70%;
+    margin: 0 0 0 0
+
+.f-icon
+  color:#fff
+  border-radius: 9999px
+  height: 3rem
+  width: 3rem
+  text-align: center
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05)
+  padding: 0.75rem
+  display: inline-block
+  margin-bottom: 20px
+  
+.icon-faAward
+  background-color: #fc8181
+
+.icon-faMedal
+  background-color: #68d391  
+
+.icon-faPoll
+  background-color: #68d391  
+
+body
+  background-color: #e2e8f0
+  font-size: 1em
+  
+.top-box
+  border-radius: 0.5rem
+  background-color: #fff   
+  padding: 1.25rem 1rem
+  width: 100%
+
+.navbar  
+  position: absolute
+  width: 100%
+  background-color: transparent
+
+.navbar-item
+  color:#fff  
+
+.navbar-brand .navbar-item
+  width: 96px
+
++mobile
+  .navbar-item
+    color:#333
+  .navbar-brand .navbar-item
+    width: 60px !important
+
+.navbar-item img
+  max-width: 100%
+  max-height: unset
+
+.f-box
+  border-radius: 0.5rem
+  background-color: #fff
+  padding: 1.5rem
+
+.f-box a
+  color:#333  
+
+.f-box a:hover
+  color:#333
+
+.f-box p
+  text-align: center
+
+.s-last-box
+  background-color: #fff
+  margin-bottom: 0 !important
+  position: relative
+
+.s-last-box svg polygon
+  color: #fff
+
+.bg-gray-900
+  background-color: #1a202c
+  margin-bottom: 0 !important
+  position: relative
+
+.bg-gray-900 svg polygon
+  color: #1a202c
+
+.c-box
+  border-radius: 0.5rem
+  background-color: #fff   
+  padding: 2rem
+  width: 100%
+
+.c-header, .c-header h1
+  color: #ffffff
+
+.cboxc
+  width: 33.33%
+  margin: 0 auto
+  color: #fff
+
+.cboxc h4
+  color: #fff
+
+.cboxc p
+  color:#a0aec0
+
+.button.is-link
+  background-color: #1a202c
+
+footer.footer
+ background-color: #e2e8f0
+ position: relative
+
+.cr-text
+ color: #718096
+ font-weight: 600
+ font-size: 0.875rem
+
+.footerTop, .cTop, .sTop
+ position: absolute
+ top: 0
+ left: 0
+ right: 0
+ bottom: auto         
+ margin-top: -5rem
+ overflow: hidden
+ pointer-events: none
+ width: 100%
+ height: 80px
+ transform: translateZ(0px)   
+
+.hBtm  
+ position: absolute
+ top: auto
+ left: 0
+ right: 0
+ bottom: 0
+ margin-top: -5rem
+ overflow: hidden
+ pointer-events: none
+ width: 100%
+ height: 80px
+ transform: translateZ(0px)    
+
+.absolute
+  position: absolute
+
+.bottom-0
+  bottom: 0
+
+.overflow-hidden
+  overflow: hidden
+
+.fill-current
+  fill: currentColor
+
+svg
+  display: block
+
+.footer svg polygon
+  color: #e2e8f0
+
+.btnSubs
+  font-weight: bold  
+
+.featured-thumbnail > div
+  border-bottom-right-radius:0 !important
+  border-bottom-left-radius:0 !important
+
+.post-meta
+  padding: 1rem 1rem 0
+
+.post-meta .title
+  text-decoration: none !important  
+
+.blog-list-item.is-featured
+  background-color: #fff
+
+.b-fwi  
+  height: 96px
+
++mobile
+.blog-list-item .featured-thumbnail 
+    text-align: center
+    max-width: 100%
+    margin: 0 0 0
+
++mobile    
+.b-fwi  
+  height: 48px    
+
+.n-item-blog
+  font-size: 1.25rem
+  color: #888
+
+.b-h1
+  font-size: 2rem
+  max-width: 1140px
+  margin: 0 auto
+  padding: 1rem 0
+  width: 100%
+
++mobile  
+  .b-h1
+    font-size: 1.2rem
+
+.b-p
+  font-size: 1.2rem
+  max-width: 1140px
+  margin: 0 auto
+  padding: 0.25em 0
+  width: 100%
+  text-align: left
+  line-height: 1.5
+  font-size: 1.2rem
+
+.blogNavbar .navbar-item
+  width:100% !important
+
++mobile    
+  .blogNavbar .navbar-item
+    width:90% !important
+    margin-bottom: 20px
+    min-height: 48px !important
+  
+.blogPostHero
+  width: 100%
+
++mobile
+  .blog-fwic
+    height: 45vh !important  
+
+  .bpTitle h1
+    font-size: 1.5rem !important
+
+  
