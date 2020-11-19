@@ -4,7 +4,7 @@ title: The masterpiece of hair styling
 date: 2020-11-01T09:20:47.854Z
 description: The best cuts and colours in the Inner West
 featuredpost: true
-featuredimage: /img/main1432.jpg
+featuredimage: /img/main.jpg
 tags:
   - Hair colour
   - amazing results
