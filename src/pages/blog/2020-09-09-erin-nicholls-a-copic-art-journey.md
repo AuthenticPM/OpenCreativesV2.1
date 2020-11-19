@@ -1,10 +1,11 @@
 ---
 templateKey: blog-post
-title: "Erin Nicholls: a Copic art journey"
+title: 'Erin Nicholls: a Copic art journey'
 date: 2020-09-09T00:37:43.334Z
-description: _____________________________________________________________________________________________
+description: >-
+  _____________________________________________________________________________________________
 featuredpost: true
-featuredimage: /img/whatwedo.png
+featuredimage: /img/a memory in spring blog tile.jpg
 tags:
   - Erin Nicholls
   - Art
