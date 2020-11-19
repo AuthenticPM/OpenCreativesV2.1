@@ -35,7 +35,7 @@ intro:
       text: Your search is over!
       title: Cello Hairdressing & Formal Services
     - image: /img/017_226_bolt_lightning_charge_action_electric_electricity.png
-      link: www.glenco.com.au test
+      link: https://www.glenco.com.au
       text: From electrical to security to building
       title: Glenco does it all
   body: Click the links to be taken to these creative's own projects otherwise
