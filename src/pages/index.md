@@ -23,9 +23,9 @@ intro:
       text: Quality work for quality projects
       title: TileStone
     - image: /img/015_026_flower_tulip_present_nature.png
-      link: https://www.jodie.com.au/
-      text: Sydney's most awarded florist
-      title: Jodie McGregor Flowers
+      link: https://xoflowerhouse.com/
+      text: Sydney's newest and best florist
+      title: XO Flower House
     - image: /img/011_139_hands_care_cover_save_peace_world.png
       link: https://www.icatchingmedia.com.au
       text: Business Marketing Tools
