@@ -12,35 +12,31 @@ tags:
 ---
 **Tell us a brief bit about yourself and how you fell into your career path** 
 
-So I was 14, and I got asked model for a hairdresser for a competition. so I did that. And from the experince I suppose the energy and the vibe from the competition and all the hairdressers and all the artistic side of things, sort of triggered me deciding that this is something that I could do.  And then I started working there on Saturdays and Thursday nights while I was at school. Yep. And then an apprenticeship came available. They are, I was in year nine. And there's like, and mom and dad wanted me to go to 12 and all that. And it's like, you know what, this is what I want to do. And from wasting my time at school, because this is what I want. So that's it. I left school and I started my apprenticeship.
+So I was 14, and I got asked model for a hairdresser for a competition. so I did that. And from the experience I suppose the energy and the vibe from the competition and all the hairdressers and all the artistic side of things, sort of triggered me deciding that this is something that I could do.  And then I started working there on Saturdays and Thursday nights while I was at school. Yep. And then an apprenticeship came available. They are, I was in year nine. And there's like, and mom and dad wanted me to go to 12 and all that. And it's like, you know what, this is what I want to do. And from wasting my time at school, because this is what I want. So that's it. I left school and I started my apprenticeship.
 
 **What did you wish you knew before you started your venture?**
 
-But I think social socially is what it teaches you mainly, yeah. nd you know, like, at the end of the day, if there's something you want to do, you just go and do it. There's no point that you know, maybe I should do something else. But I just believe that, you know, whatever you do, if you do well you be successful. You know, there's something for everyone, you know, by me going to year 12 and getting a law degree, and we're doing a law degree or it doesn't mean that I'm going to be successful. It's what I'm going to want to play, someone else will replace myself.
+But I think social socially is what it teaches you mainly, yeah. and you know, like, at the end of the day, if there's something you want to do, you just go and do it. There's no point that you know, maybe I should do something else. But I just believe that, you know, whatever you do, if you do well you be successful. You know, there's something for everyone, you know, by me going to year 12 and getting a law degree, and we're doing a law degree or it doesn't mean that I'm going to be successful. It's what I'm going to want to play, someone else will replace myself.
 
-![Amaxing colur and texture on this cut](/img/Untitled-1.jpg "Amaxing colur and texture on this cut")
-
-
+![](/img/Untitled-1.jpg "Amazing colour and texture on this cut")
 
 **Is there anything you wish you had done differently along the way?**
 
-Yeah, well, trusting people. Yeah.  It can be dificult at times.
+Yeah, well, trusting people. Yeah.  It can be difficult at times.
 
 **What are the most important failures you’ve had along the way?**
 
-There's early days in my business, rush after a lot of times by staff and stuff. So it taught me a lot. Not to trust anyone. pick your staff very carefully.  The right people make all the differenece.
+There's early days in my business, rush after a lot of times by staff and stuff. So it taught me a lot. Not to trust anyone. pick your staff very carefully.  The right people make all the difference.
 
 **What drives you to keep pushing forward and do you have a rally cry or motto that motivates you?**
 
-Important failures. If there's anything you don't just say, next question, pause, whatever. Well, you know, it does come always comes back to trust. Yeah, trusting people. It is hqrd to trust when in a lot of cases because people don't show their true dolours until it's too late.  
+Important failures. If there's anything you don't just say, next question, pause, whatever. Well, you know, it does come always comes back to trust. Yeah, trusting people. It is hard to trust when in a lot of cases because people don't show their true colours until it's too late.  
 
 **What difficulties did you have to overcome early on?**
 
-Know, it does come always back to trust. Yeah, trusting people. Never trust people. Even your best friends as they can sometimew do things you wouldnt ecpect them to becase thet feel you owe them.
+Know, it does come always back to trust. Yeah, trusting people. Never trust people. Even your best friends as they can sometimes do things you wouldn't expect them to because then feel you owe them.
 
-
-
-![](/img/Untitled-2.jpg "Such bright vibrance, speak wih us today fot a similar result")
+![](/img/Untitled-2.jpg "Such bright vibrance, speak with us today for a similar result")
 
 **What are the three things you love most about what you do?**
 
@@ -58,11 +54,9 @@ To worry about your own agenda. And you got to be a little bit selfish. Yeah. An
 
 **C**ello was part of my surname, my surname Adoncello. Gotcha. Yeah. And my cousin
 
-Was there ever a time where you just wanted to throw in the towel and leave it all behind?
-
 **What motivates you on a daily basis to keep going and improving on what you do**?
 
-That's the hobby or the life from now. Yeah. So if you know, if you want to provide a service, make sure it's the best service you can. And if you want to compete against other people, you need to have an edge on other people. You know, so like, if, for example, you know, the hairdresser down the road charges 20 bucks, but I charge 50. Why do I charge 50? Well, I provide a better service and that sells out in 10 minutes, I'll give you an hour of my time and make your cappuccino. I'll give you magazines we have conversations an get to know each other you know things like that at all. It all adds up so I can go to a barber shop and walk out of there in 15 minutes there pay 20 bucks, but I wasn't satisfied. I felt like I was just on a production line. And they the little differences you know, they really aren't that small and it's what bring joy and meaning to our lives.
+That's the hobby or the life from now. Yeah. So if you know, if you want to provide a service, make sure it's the best service you can. And if you want to compete against other people, you need to have an edge on other people. You know, so like, if, for example, you know, the hairdresser down the road charges 20 bucks, but I charge 50. Why do I charge 50? Well, I provide a better service and that sells out in 10 minutes, I'll give you an hour of my time and make your cappuccino. I'll give you magazines we have conversations and get to know each other you know things like that at all. It all adds up so I can go to a barber shop and walk out of there in 15 minutes there pay 20 bucks, but I wasn't satisfied. I felt like I was just on a production line. And they the little differences you know, they really aren't that small and it's what bring joy and meaning to our lives.
 
 **Do you have any specific advice for others contemplating similar paths to yours?**
 
@@ -74,7 +68,7 @@ My first salon. I borrowed money for I think it was about 50 grand. Yeah, but we
 
 **What’s the most amazing experience you’ve had that’s directly attributed to your career**
 
-I did the same when we had the cafe we bought it without any money. But we just believe that if we gave it 100% was the breard man, it was a VR and, and start with small goals. You should be able to do it. I mean, if you're confident in what you do, you know, everything else follows. You know, I told my staff all the time, because now they're all on commission and stuff like that. It's like guys, it's not about how much money you make at the end of the week, or how much money you turn over. It's about making that client happy. Yeah, once that client walks out, they're happy and it makes all the difference
+I did the same when we had the cafe we bought it without any money. But we just believe that if we gave it 100% was the bread man, it was a VR and, and start with small goals. You should be able to do it. I mean, if you're confident in what you do, you know, everything else follows. You know, I told my staff all the time, because now they're all on commission and stuff like that. It's like guys, it's not about how much money you make at the end of the week, or how much money you turn over. It's about making that client happy. Yeah, once that client walks out, they're happy and it makes all the difference
 
 **What do you do to keep yourself mentally sharp and on the ball?**
 
