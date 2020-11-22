@@ -8,8 +8,8 @@ featuredimage: /img/mainsize.jpg
 tags:
   - Floral Arrangements
 ---
-Bunch of text will go here with some amazing arrangements 
+Bunch of text will go here with some amazing arrangements/photos/etc
 
-![](/img/wedding2.jpg)
+![alt](/img/wedding2.jpg)
 
 ![](/img/arrangement2.jpg)
