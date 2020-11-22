@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: XO Flower House
+title: XO Flower House - for your special day
 date: 2020-11-22T02:07:52.785Z
 description: _______________________________________________________________
 featuredpost: true
@@ -8,7 +8,7 @@ featuredimage: /img/mainsize.jpg
 tags:
   - Floral Arrangements
 ---
-Bunch of text will go here with some amazing arrangements/photos/etc
+Bunch of text will go here with some amazing arrangements/photos/etc links to contact and all that 
 
 ![alt](/img/wedding2.jpg)
 
