@@ -38,6 +38,10 @@ intro:
       link: https://www.glenco.com.au
       text: From electrical to security to building
       title: Glenco does it all
+    - image: /img/008_040_home_apartment_house_building_2.png
+      text: Bringing 5 star service to real estate
+      title: Authentic Property Management
+      link: www.authenticpm.com.au
   body: Click the links to be taken to these creative's own projects otherwise
     **[read their stories here](http://www.opencreatives.com.au/blog)**
   heading: Our Recent Creatives
