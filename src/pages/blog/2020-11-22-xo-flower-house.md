@@ -8,7 +8,7 @@ featuredimage: /img/mainsize.jpg
 tags:
   - Floral Arrangements
 ---
-ttest 
+Bunch of text will go here with some amazing arrangements 
 
 ![](/img/wedding2.jpg)
 
