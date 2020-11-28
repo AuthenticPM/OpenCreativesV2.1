@@ -4,7 +4,7 @@ title: XO Flower House - for your special day
 date: 2020-11-22T02:07:52.785Z
 description: _______________________________________________________________
 featuredpost: true
-featuredimage: /img/mainsize2.jpg
+featuredimage: /img/mainsize2-edit.jpg
 tags:
   - Floral Arrangements
 ---
