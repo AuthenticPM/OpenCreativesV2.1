@@ -4,7 +4,7 @@ title: From electrical, to security, to building, Glenco does it all
 date: 2020-11-17T22:46:26.197Z
 description: ____________________________________________________________________________________________
 featuredpost: true
-featuredimage: /img/main1432.jpg
+featuredimage: /img/blog-tile-edit.jpg
 tags:
   - Electrical
 ---
