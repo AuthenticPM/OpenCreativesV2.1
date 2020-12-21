@@ -4,7 +4,7 @@ title: What’s 5 star real estate really like?
 date: 2020-11-19T05:05:38.689Z
 description: _____________________________________________________________________
 featuredpost: true
-featuredimage: /img/main-lighter.jpg
+featuredimage: /img/Main blog tile.jpg
 tags:
   - PropertyManagememt
 ---
