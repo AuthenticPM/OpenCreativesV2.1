@@ -1,11 +1,10 @@
 ---
 templateKey: blog-post
-title: 'From electrical, to security, to building, Glenco does it all'
+title: From electrical, to security, to building, Glenco does it all
 date: 2020-11-17T22:46:26.197Z
-description: >-
-  ____________________________________________________________________________________________
+description: ____________________________________________________________________________________________
 featuredpost: true
-featuredimage: /img/Main blog tile.jpg
+featuredimage: /img/app-integrations.png
 tags:
   - Electrical
 ---
