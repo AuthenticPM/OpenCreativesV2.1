@@ -10,7 +10,6 @@ import { faAward, faMedal, faPoll } from "@fortawesome/free-solid-svg-icons";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import remark from 'remark'
 import remarkHTML from 'remark-html'
-import html from "remark-html";
 
 const toHTML = value => remark()
                             .use(remarkHTML)

@@ -2,10 +2,9 @@
 templateKey: blog-post
 title: XO Flower House - for your special day
 date: 2020-12-21T05:42:01.301Z
-description: >-
-  ________________________________________________________________________________________________________
+description: ________________________________________________________________________________________________________
 featuredpost: true
-featuredimage: /img/Main blog tile.jpg
+featuredimage: /img/XO-Flower-House.jpg
 tags:
   - Flowers
   - Wedding

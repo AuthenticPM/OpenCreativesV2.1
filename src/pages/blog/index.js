@@ -52,57 +52,6 @@ export const pageQuery = graphql`
   query BlogIndexPage {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
-        title
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        heading
-        subheading
-        mainpitch1 {
-          title
-          description
-        }
-        mainpitch2 {
-          title
-          description
-        }
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 140, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            title
-            link
-            text
-          }
-          heading
-          description
-        }
-        main {
-          heading
-          description
-          image {
-            childImageSharp {
-              fluid(maxWidth: 240, quality: 64) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-        }
-        contact {
-          title
-          description
-          heading
-          text
-        }
         blog {
           title
           description
@@ -111,3 +60,55 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+// title
+// image {
+//   childImageSharp {
+//     fluid(maxWidth: 2048, quality: 100) {
+//               ...GatsbyImageSharpFluid
+//     }
+//   }
+// }
+// heading
+// subheading
+// mainpitch1 {
+//   title
+//   description
+// }
+// mainpitch2 {
+//   title
+//   description
+// }
+// intro {
+//   blurbs {
+//     image {
+//       childImageSharp {
+//         fluid(maxWidth: 140, quality: 64) {
+//                   ...GatsbyImageSharpFluid
+//         }
+//       }
+//     }
+//     title
+//     link
+//     text
+//   }
+//   heading
+//   description
+// }
+// main {
+//   heading
+//   description
+//   image {
+//     childImageSharp {
+//       fluid(maxWidth: 240, quality: 64) {
+//                 ...GatsbyImageSharpFluid
+//       }
+//     }
+//   }
+// }
+// contact {
+//   title
+//   description
+//   heading
+//   text
+// }

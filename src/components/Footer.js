@@ -11,7 +11,7 @@ const Footer = class extends React.Component {
         </div>
         <div className="content has-text-centered has-text-white-ter">
           <div className="container has-text-white-ter">
-            <div style={{ maxWidth: '100vw' }, { justifyContent: 'center' }} className="columns cr-text">
+            <div style={{ maxWidth: '100vw' , justifyContent: 'center' }} className="columns cr-text">
               Copyright © 2020 Open Creatives
             </div>
           </div>

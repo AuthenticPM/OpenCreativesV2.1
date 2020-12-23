@@ -5,7 +5,7 @@ date: 2020-11-17T22:46:26.197Z
 description: >-
   ____________________________________________________________________________________________
 featuredpost: true
-featuredimage: /img/Main blog tile.jpg
+featuredimage: /img/Glenco.jpg
 tags:
   - Electrical
 ---
